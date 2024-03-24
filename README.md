@@ -1,6 +1,6 @@
 # Working with shells
 
-![iterm-logo](https://cdn.icon-icons.com/icons2/2667/PNG/512/iterm_terminal_icon_161274.png) ![vscode](https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png)
+<img src="https://cdn.icon-icons.com/icons2/2667/PNG/512/iterm_terminal_icon_161274.png" alt="iterm-logo" display="inline-block" width="30%"/> <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" alt="vscode-logo" display="inline-block" width="30%"/>
 
 ### Ayyyy
 This is a collection of exercises that we're going to work through as we progress through the shell & terminal session(s).
