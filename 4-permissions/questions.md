@@ -43,7 +43,7 @@ r--------=
 Convert the following permission statements from octal to strings:
 ```sh
 766=
-400=
+200=
 721=
 642=
 517=
