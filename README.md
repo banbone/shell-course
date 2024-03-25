@@ -18,6 +18,15 @@ Each section we move on to will be in it's own folder, so to get started in a se
 
 Some solutions will ask you to execute a script - in order to do this, make whatever changes to the file that you need to, and execute the script with the command `./script.sh`.
 
+## Fixing any mistakes
+1. Don't panic, everyone makes mistakes!
+2. If there's a process in your terminal that's stuck, 9/10 times pressing `control + C` will stop it!
+3. If you make a mistake and want to reset the directory, do the following:
+  - Undo any changes to tracked files with the command `git restore .`
+  - Run `git status` to see any new files that you've created which the restore can't remove.
+  - Use `rm` to delete the files that git couldn't fix.
+  > ⚠️ Make sure you're in the correct working directory before doing this!
+
 ## Getting `--help`
   > See what I did there? 😏
 
