@@ -38,3 +38,10 @@ If you get stuck on any of the sections, or using any commands in general, you'v
 - Ask someone for some help!
 
 If you're stuck but you find a solution, share it with the whole class! There's nothing worse than having a problem, stumbling across an old github issue or Stack Overflow question with the exact same question as you, only for the reporter to say _'Don't worry I figured it out!'_ without giving the actual solution! Don't be that guy! Sharing is caring ♥️
+
+## Updating the solutions
+The solutions are all base64 encoded to stop you from accidentally spoiling it for yourself by inadvertantly clicking on one of them out of curiosity. But if you really want to, they are there! You can google how to decode them if you're really that desperate to cheat 😉
+I use this command:
+```sh
+for i in answers/* ; do base64 <$i > solutions/$(echo $i | cut -d '/' -f 2).b64 ; done
+```

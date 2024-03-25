@@ -1,0 +1,3 @@
+# Working with shells
+This is a collection of exercises that we're going to work through as we progress through the shell & terminal session(s).
+Strap on your neck-beards folks, we're going to be using either a terminal or a code editor to complete all of these exercises. It's one of those things that you'll need to get used to using as much as you can to build up familiarity through repetition.

@@ -31,20 +31,20 @@ Use the `chmod` command to allow all users to read the contents of the `open-up.
 
 #### Q5
 Convert the following permission statements from strings to octal:
-```sh
-rwxrwxrwx=
-rwxr-xr-x=
-rw-r--r--=
-rw-r-x--x=
-r--------=
+```
+rwxrwxrwx =
+rwxr-xr-x =
+rw-r--r-- =
+rw-r-x--x =
+r-------- =
 ```
 
 #### Q6
 Convert the following permission statements from octal to strings:
-```sh
-766=
-200=
-721=
-642=
-517=
+```
+766 =
+200 =
+721 =
+642 =
+517 =
 ```
