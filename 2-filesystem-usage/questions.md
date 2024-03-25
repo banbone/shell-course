@@ -40,8 +40,4 @@ Use a single `cp` command to create a replica of the `extra-dir` directory and a
 ```
 
 #### FINALLY
-Run the command `ls -a **/*` to dump out the full contents of this directory, and paste in the output below. We'll check to see if you've done all the steps right!
-```sh
-# your answer here
-
-```
+Run the `check.sh` script to check that you've done it all correctly! Just type (or copy/paste) `./check.sh` to run the script.

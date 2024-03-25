@@ -1,18 +1,20 @@
 #! /bin/bash
 # shellcheck disable=
-
+printf 'Q1: '
 if [ -z ${FIRST_NAME+x} ]; then 
   echo "❌ FIRST_NAME is not correctly set"; 
 else 
   echo "✅ FIRST_NAME is set to '$FIRST_NAME'"; 
 fi
 
+printf 'Q2: '
 if [ -z ${LAST_NAME+x} ]; then 
   echo "❌ LAST_NAME is not correctly set"; 
 else 
   echo "✅ LAST_NAME is set to '$LAST_NAME'"; 
 fi
 
+printf 'Q3: '
 if [ -z ${FIRST_NAME+x} ] || [ -z ${LAST_NAME+x} ] ; then
   echo "❌ FULL_NAME is not correctly set";
 elif [ "$FULL_NAME" == "$FIRST_NAME $LAST_NAME" ] ; then
@@ -21,6 +23,7 @@ else
   echo "❌ FULL_NAME is not correctly set";
 fi
 
+printf 'Q4: '
 if [ -z ${TASK_DIRECTORY+x} ] ; then
   echo "❌ TASK_DIRECTORY is not correctly set";
 elif [ "$TASK_DIRECTORY" == "$(pwd)" ] ; then
@@ -29,6 +32,7 @@ else
   echo "❌ TASK_DIRECTORY is not correctly set";
 fi
 
+printf 'Q5: '
 if [ -z ${TASK_DIRECTORY+x} ] ; then
   echo "❌ file.txt not created correctly";
 elif [ -f "$TASK_DIRECTORY/file.txt" ] ; then

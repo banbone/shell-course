@@ -27,5 +27,5 @@ Change to a different directory, and use your `TASK_DIRECTORY` variable to creat
 #### Q6
 Use the `export` built-in command to export all of the new variables you have created in this section.
 
-#### Q7
+#### FINALLY
 Run the `check.sh` script to check that you've done it all correctly! Just type (or copy/paste) `./check.sh` to run the script.
