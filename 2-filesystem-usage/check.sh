@@ -1,6 +1,6 @@
 #! /bin/bash
 # shellcheck disable=
-assess_fail() {
+assess_pass() {
   code="${1}" ;
   success_msg="${2}" ;
   fail_msg="${3}" ;
@@ -21,24 +21,24 @@ for i in 1 2 3 ; do
 done
 
 printf "Q4:  "
-fail='0'
+pass='0'
 for i in 1 2 3 ; do
   if [ "$(find . -type d -name '1' | wc -l | tr -d ' ')" -ne '1' ] ; then
-    fail='1' ;
+    pass='1' ;
   fi ;
 done
-assess_fail $fail 'the target directories exist' 'cannot find the target directories'
+assess_pass $pass 'the target directories exist' 'cannot find the target directories'
 
 printf "Q5:  "
-fail='0'
+pass='0'
 for i in 1 2 3 ; do
   if find . -name "answer$i.txt" | grep -q "/$i/answer$i.txt" ; then
-    fail='0' ;
+    pass='0' ;
   else
-    fail='1' ;
+    pass='1' ;
   fi ;
 done
-assess_fail $fail 'the files are in the correct dir' 'the files are not in the correct dir'
+assess_pass $pass 'the files are in the correct dir' 'the files are not in the correct dir'
 
 printf "Q6:  "
 if [ ! -d ./4 ] ; then
@@ -62,13 +62,13 @@ else
 fi
 
 printf 'Q9:  '
-fail='0'
+pass='0'
 for i in 1 2 3 ; do
   if [ ! -f "./answers/$i/answer$i.txt" ] ; then
-    fail='1' ;
+    pass='1' ;
   fi ;
 done
-assess_fail $fail 'the directory structure is correct' 'the directory structure is not right'
+assess_pass $pass 'the directory structure is correct' 'the directory structure is not right'
 
 printf 'Q10: '
 if [ "$(ls extra-dir 2> /dev/null)" == "$(ls extra-dir3 2> /dev/null)" ] ; then
