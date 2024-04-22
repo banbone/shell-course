@@ -11,7 +11,7 @@ Use the `cp` command to make a copy of `answer1.txt` called `answer2.txt`
 Use the `mv` command to rename `rename-me.txt` to `answer3.txt`.
 
 #### Q4
-Use the `mkdir` command to create three directories named `1`, `2`, `3` and `4`.
+Use the `mkdir` command to create four directories named `1`, `2`, `3` and `4`.
 
 #### Q5
 Use the `mv` command to move each answer file into it's own directory (`answer1.txt` into 1, `answer2.txt` into 2 etc).
